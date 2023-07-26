@@ -18,6 +18,10 @@
                         </div>
                     </div>
                 </section>
+                <div>
+                    <a href="{% url 'editar_imagem' fotografia.id %}"><button class="btn btn-success col-12" style="padding: top 5px;">Editar</button></a>
+                    <a href="{% url 'delete_imagem' fotografia.id %}"><button class="btn btn-danger col-12" style="padding: top 5px;">Excluir</button></a>
+                </div>
             </section>
         </main>
     </div>
